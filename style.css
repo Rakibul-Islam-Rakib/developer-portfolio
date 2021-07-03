@@ -12,18 +12,22 @@ h1 {
     font-size: 50px;
 }
 
-.world {
+h2 {
+    font-size: 40px;
+}
+
+.orange-colour {
     color: orange;
 }
 
 .flexxible-container {
     display: flex;
-    margin-bottom: 130px;
+    margin-bottom: 90px;
 }
 
 .section-one {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 8%;
 
 }
 
@@ -32,12 +36,12 @@ h1 {
 }
 
 .section-one img {
-    width: 80%;
+    width: 85%;
 }
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(red, tomato);
+    background-image: linear-gradient(Salmon, tomato);
     font-weight: 700;
     color: white;
     padding: 10px 40px;
@@ -52,5 +56,41 @@ h1 {
 }
 
 .padding-right {
-    padding-right: 18%;
+    padding-right: 19%;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-item p {
+    text-align: justify;
+}
+
+#full-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
